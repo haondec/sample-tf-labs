@@ -1,6 +1,9 @@
 # Local .terraform directories
 .terraform/
 
+# Terraform lock file
+.terraform.lock.hcl
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
@@ -35,3 +38,9 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore .DS_Store files
+.DS_Store
+
+# Ignore sensitive files
+data/ssh/*
